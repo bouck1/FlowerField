@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flower field</title>  
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body class="main">
+	<video controls width="1080" height="1080" poster="res/images/2.png" preload="none">
+		<source src="res/videos/1.mp4" type="video/mp4">
+	</video>
+
+	<div class="custom">
+		<p onclick="changetext()">Hello everyone</p>
+	</div>
+	
+	<h1 style="color:white;">The a download attribute</h1>
+		<p>Click on the image to download it:<p>
+		<a href="slavery.txt" download>
+		  <img src="res/images/1.png" alt="Teeth" width="258" height="368">
+		</a>
+	<p><b>Note:</b> The download attribute is not supported in IE or Edge (prior version 18), or in Safari (prior version 10.1).</p>
+
+	<script type="text/javascript">
+		var value = 0;
+		function changetext(){
+			value++;
+			console.log(value);
+		}
+	</script>
+</body>
+</html>
